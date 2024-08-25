@@ -1,0 +1,88 @@
+#container_of_payment_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#action_section{
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+  padding: 30px; 
+  width: 90%; 
+  margin-left: 10%; 
+  padding-left: 0;
+  color: rgb(111, 111, 111);
+  font-weight: 700;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 35%;
+  gap: 10px;
+  margin: 20px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-container {
+  background-color: rgba(243, 243, 243, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+label {
+  font-size: 1.25rem;
+  width: 300px;
+  text-align: left;
+}
+
+button {
+  background-color: rgb(111, 111, 111) !important;
+  color: #8bf7d3 !important;
+  font-weight: 600 !important;
+  border: 1px solid #8bf7d3 !important;
+  font-size: 1.6rem !important;
+  padding: 10px 30px !important;
+  box-shadow: 2px 2px 5px -1px #8bf7d3 !important;
+}
+
+#infoAlertFail {
+  position: fixed;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1050;
+}
+
+#infoAlertSuccess {
+  position: fixed;
+  bottom: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3.2rem !important;
+  z-index: 1050;
+}

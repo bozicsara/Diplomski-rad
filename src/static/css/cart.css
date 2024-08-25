@@ -1,0 +1,47 @@
+.button_moja_apoteka {
+    background-color: rgb(111, 111, 111) !important;
+    color: #8bf7d3 !important;
+    font-weight: 600 !important;
+    border: 1px solid #8bf7d3 !important;
+    font-size: 1.6rem !important;
+    padding: 8px 70px !important;
+    box-shadow: 2px 2px 5px -1px #8bf7d3 !important;
+  }
+
+  .product-quantity {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: fit-content;
+    height: 45px;
+    overflow: hidden;
+  }
+  
+  .product-quantity input[type=text] {
+    border: none;
+    padding: 5px;
+    width: 60px;
+    text-align: center;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quantity-controls button {
+    border: none;
+    background-color: #f0f0f0;
+    padding: 2px;
+    cursor: pointer;
+  }
+  
+  .quantity-controls button:active {
+    background-color: #e0e0e0;
+  }
+
+td {
+  font-weight: 500;
+  color: rgb(111, 111, 111);
+}

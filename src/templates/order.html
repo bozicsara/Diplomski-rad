@@ -1,0 +1,45 @@
+{% extends "base.html" %} {% block css %}
+<link rel="stylesheet" type="text/css" href="../static/css/order.css" />
+{% endblock %} {% block title %}Narudžbina{% endblock %} {% set cart_icon = true
+%} {% block content %}
+<h4 style="padding: 30px; width: 90%; margin-left: 10%; padding-left: 0">
+  NARUDŽBINA
+</h4>
+<div id="container_of_payment_form">
+  <form id="contactForm" class="form-container">
+    <div class="form-section">
+      <div class="form-group">
+        <label for="firstName" class="required">*Ime:</label>
+        <input type="text" id="firstName" name="firstName" required />
+      </div>
+      <div class="form-group">
+        <label for="lastName" class="required">*Prezime:</label>
+        <input type="text" id="lastName" name="lastName" required />
+      </div>
+    </div>
+    <div class="form-section">
+      <div class="form-group">
+        <label for="email" class="required">*E-mail:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="phone" class="required">*Broj telefona:</label>
+        <input type="tel" id="phone" name="phone" required />
+      </div>
+    </div>
+    <div class="form-section">
+      <div class="form-group">
+        <label for="address" class="required">*Adresa:</label>
+        <input type="text" id="address" name="address" required />
+      </div>
+    </div>
+  </form>
+</div>
+<div id="action_section">
+  <button id="finishShoppingBtn" type="submit" class="btn btn-primary">
+    Završi kupovinu
+  </button>
+</div>
+{% endblock %} {% block scripts %}
+<script type="module" src="../static/js/order.js"></script>
+{% endblock %}
