@@ -25,7 +25,7 @@ async function collectAllDataAndCreateEntities() {
     !localStorage.length
   )
     return createNotification(
-      "Morate popuniti sva polja i korpa ne sme biti prazna!",
+      "Morate popuniti sva obavezna polja!",
       true
     );
   const userResponse = await createEntity(
